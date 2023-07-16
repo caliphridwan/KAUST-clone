@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: rgb(7, 7, 32);
+    height: 13vh;
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.navbar .nav1{
+    width: 30%;
+    display:flex;
+    gap: .3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar .nav1 img{
+    width: 80px;
+    height: 60px;
+    border-radius:80%;
+}
+.navbar h4{
+    color:white;
+    font-size: 1rem;
+    font-weight:900;
+    text-shadow: 1px 1px black;
+    
+}
+
+.navbar .nav2 {
+    width: 58%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navs{
+    width: 25vw;
+    /* background-color: navy; */
+}
+
+.nav2 a{
+    text-decoration: none;
+    color:white;
+    font-weight:700;
+}
+
+.body-image{
+    height: 300px;
+    background-image: url("../images/uni4.jpg");
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: saturate(100px)
+}
+
+
+hr{
+    width: 13vw;
+    margin:0;
+}
+
+.body-1{
+    width: 90%;
+    margin:auto;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    display:grid;
+    grid-template-columns: 200px 800px;
+    height: 500px;
+    /* background-color: blue; */
+    margin-top:4rem;
+
+}
+.body-1 ul{
+    width: 100%
+}
+
+.body-1 ul li{
+    list-style-type: none;
+    background-color: darkblue;
+    padding: .8rem;
+    text-transform: uppercase;
+    /* border-radius: 5px; */
+}
+
+.body-1 ul li a{
+     text-decoration: none;
+     /* background-color: navajowhite; */
+     color:white;
+     font-weight: bolder;
+}
+.navs2{
+    font-size: 1.4rem;
+    color: darkblue;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.navs3{
+    font-size: 1.4rem;
+    color: darkblue;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.navs22{
+    font-size: 1.4rem;
+    color: darkblue;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+/* .body-1 .navs{
+   max-width: 35%;
+    min-height: 100%;
+
+} */
+
+.grid2{
+    display:flex;
+    width: 90%;
+    margin:auto;
+    gap: 3rem;
+    flex-wrap:wrap;
+    /* background-color: bisque; */
+    height: 300px;
+    gap: 2rem;
+    /* border: 2px solid black; */
+}
+
+.grid2 .g1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    /* gap:1rem; */
+    /* align-items: center; */
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    width: 48%;
+    text-align: justify;
+    background:linear-gradient(white, rgb(32, 32, 92))
+}
+.g1 .imgg{
+    width: 8vw;
+   border-radius: 100%;
+}
+
+.g1 .imgg img{
+    border-radius: 100%;
+    border: 3px solid;
+
+}
+.g1 .text{
+    width: 70%;
+    color:white;
+    font-weight: 700;
+    line-height: 1.3rem;
+    text-shadow: 1px 1px black;
+}
+
+/* .g1 .icon .fas{
+    
+    height: 200px;
+} */
+.grid2 .g1 img{
+    width: 50px;
+    height: 40px;
+}
+.grid2 .g2{
+    border: 1px solid black;
+    width: 45%;
+    /* width: 45%; */
+    background-color: dimgray;
+}
+.grid2 .g4{
+    border: 1px solid black;
+    width: 45%;
+    width: 45%;
+    background-color: dimgray;
+}
+.grid2 .g3{
+    border: 1px solid black;
+    width: 45%;
+    width: 45%;
+    background-color: dimgray;
+}
+
+.text2{
+    width: 90%;
+    margin:auto;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.foot{
+    width:100%;
+    height: 700px;
+    background-color: rgb(1, 1, 22);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-top: 2rem; */
+    color:white;
+    font-weight:bolder;
+}
+
+.foot1{
+    width: 40vw;
+    display:grid;
+    gap: 1rem;
+    
+    grid-template-columns: 150px 200px 200px;
+}
+
+.foo{
+    font-size: .6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foot2{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    margin-top: 10rem;
+    border-left: 20px solid black;
+    margin:auto;
+    width: 35vw;
+    background-image: url("../images/grey-world-map_1053-431.webp");
+    background-size: cover;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+background-color: lightblue;
+    }
+    .navbar h4{
+        font-size: .6rem;
+    }
+    .navbar .nav2{
+        display:inline-block;
+        text-align:right;
+        line-height: .7rem;
+    
+        
+        /* font-size: .6rem; */
+    }
+    .nav2 a{
+        display:block;
+        text-align:right;
+        font-size: .5rem;
+    }       
+    .body-1 {
+            font-size: .6rem;
+            display:block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    }
+
+    .grid2{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-basis: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        /* height: 35rem; */
+        font-size: .6rem;
+        gap: 1rem;
+        height: 600px;
+        gap: 2rem;
+    }
+
+    .g1{
+        width: 100vw;
+    }
+    .g1 .text{
+        /* display:inline-block; */
+        color:white;
+        text-shadow: 1px 1px black;
+    }
+
+    .g1 .imgg img{
+        border-radius: 100%;
+        border: 1px solid blue;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        opacity: .5;
+    
+    }
+    .navs3{
+        margin-top: 1rem;
+    }
+
+    .navs22{
+        margin-top: 2rem;
+    }
+
+    .foot{
+        display:flex;
+        flex-direction: column-reverse;
+        height:500px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+    }
+    .foot1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
